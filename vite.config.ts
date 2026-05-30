@@ -6,7 +6,9 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Replace "suswaad-caters" with your GitHub repository name
-  base: mode === "production" ? "https://github.com/Chaitanya9911/Suswaad-Caterers-Website.git" : "/",
+  base: mode === "production"
+  ? "/Suswaad-Caterers-Website/"
+  : "/",
 
   server: {
     host: "::",
